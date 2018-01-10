@@ -997,7 +997,10 @@ define orawls::nodemanager (
     $nodemanager_property_version = &#39;12.2.1.1.0&#39;
   } elsif $version == 12212 {
     $nodemanager_property_version = &#39;12.2.1.2.0&#39;
+  } elsif $version == 12213 {
+    $nodemanager_property_version = &#39;12.2.1.3.0&#39;
   }
+
 
   $property_defaults = {
     &#39;properties_version&#39;                 =&gt; $nodemanager_property_version,
